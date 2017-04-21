@@ -1,0 +1,6 @@
+
+<% if params[:name] == "" or params[:adjective] == "" %>
+    <%= @text %>
+<% else %>
+    <%= params[:name] %> is so <%= params[:adjective] %>!
+<% end %>
